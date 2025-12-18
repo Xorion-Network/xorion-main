@@ -191,6 +191,7 @@ pub fn mainnet_config_genesis() -> Value {
         },
         ethereum_bridge: EthereumBridgeConfig {
             relayers: vec![
+                from_str("0x07b14fCDB532e05e959E4a346a4df7163dD9d617"),
                 from_str("0x43a603f19fa345eCE0b94F3E759C424b2892F540"),
                 from_str("0xF553da68d83cd57DD1804BB0aAd7d4D591024FFE"),
                 from_str("0x0c2752f5fc2204982D18F285cB6A55f39Db22A57"),
